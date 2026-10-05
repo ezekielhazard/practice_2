@@ -4,7 +4,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   margin: 0;
-  background-color: ?;
+  background-color: #ffff;
 }
 .box {
     width: 80%;
@@ -75,6 +75,18 @@ html, body {
  padding-left: 3px;
  font-family: 'Source Sans Pro', sans-serif;
 }
+.gradient1 {
+    color: #00a7b2;
+    font-family: 'Arial', sans-serif;
+}
+.gradient2 {
+    color: #0056d6;
+    font-family: 'Arial', sans-serif;
+}
+.gradient3 {
+    color: #942192;
+    font-family: 'Arial', sans-serif;
+}
 #flat .title {
  background: white;
  padding: 60px;
@@ -107,13 +119,14 @@ html, body {
  background-color: black;
  opacity: 0.70;
 }
+
 #flat .parallax-one {
  padding-top: 200px;
  padding-bottom: 200px;
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url("https://raw.githubusercontent.com/ezekielhazard/practice_2/main/pngwing.com.png");
+ background-image: url("аhttps://raw.githubusercontent.com/ezekielhazard/practice_2/main/pngwing.com.png");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -121,8 +134,47 @@ html, body {
  background-repeat: no-repeat;
  background-position: top center;
 }
-#flat .line-break {
- background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
+#flat .parallax-two {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githubusercontent.com/ezekielhazard/practice_2/main/205bdef2cd97fae1977bf2dd6524d8c6.641x641x1.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+}
+#flat .parallax-three {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githubusercontent.com/ezekielhazard/practice_2/main/1147834.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+}
+
+#flat .line-break1 {
+ background: linear-gradient(60deg, #00a7b2, #0056d6, #942192);
+ width: 100%;
+ margin: 0 auto;
+}
+#flat .line-break2 {
+ background: linear-gradient(60deg, #942192, #00a7b2, #0056d6);
+ width: 100%;
+ margin: 0 auto;
+}
+#flat .line-break3 {
+ background: linear-gradient(60deg, #0056d6, #942192, #00a7b2);
  width: 100%;
  margin: 0 auto;
 }
